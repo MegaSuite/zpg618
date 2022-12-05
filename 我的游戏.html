@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的游戏</title>
+    <style>
+        .conter {
+            width: 1200px;
+            height: 600px;
+            background-image: url("images/51.JPG");	
+			background-size: 100%;
+			margin: auto;
+            margin-bottom: 10px;
+            
+        }
+
+        .footer {
+            width: 1200px;
+            height: 300px;
+            background-image: url("images/49.JPG");	
+			background-size: 100%;
+            margin: auto;
+            margin-bottom: 10px
+        }
+
+        .header {
+            width: 1200px;
+            height: 50px;
+            background-image: url("images/50.JPG");	
+			background-size: 100%;
+            margin: auto;
+            margin-bottom: 10px
+
+        }
+
+
+        .article {
+            width: 700px;
+            height: 520px;
+            background: #f3ebf0;
+            float: right;
+            margin: 20px;
+        }
+
+        .aside {
+            width: 350px;
+            height: 520px;
+            background-image: url("images/54.jfif");	
+			background-size: 100%;
+            float: left;
+            margin: 20px;
+        }
+        .p1 { /*article中的标题*/
+          
+            text-decoration: underline;
+            font-family: '华文行楷';
+            font-size: 35px;
+            letter-spacing: 2px;
+        }
+        .p2 
+		{
+            text-decoration: none;
+            font-family: '华文行楷';
+            font-size: 25px;
+            letter-spacing: 2px;
+        }
+		body 
+		{				
+	        background-image: url("images/48.JPG");	
+	        background-size: 100%;
+            color: #605555;
+            font-family: "Belgrano", "Roboto Slab", sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: normal;
+	        margin: 0;
+	        display: block;
+        }
+		.con 
+		{
+            position: relative;
+        }
+        .nav > li 
+		{
+           display: inline;
+           float:left;
+        }
+        .nav li a 
+		{
+           color: #FFFF0F;
+           display: block;
+           line-height: 20px;
+           padding: 15px 30px 15px 160px;
+        }
+        .con:hover {
+           cursor: pointer;
+        }
+        .con:hover .con-box
+		{
+           transform: translateZ(-25px) rotateX(90deg);
+        }
+        .con-box 
+		{
+           transition: all .3s ease-out;
+           transform: translatez(-25px);
+           transform-style: preserve-3d;
+           position: absolute;
+           top: 20%;
+           left: 20%;
+           display: block;
+           width: 100%;
+           height: 100%;
+        }
+        .cont 
+		{
+           transform: rotatex(0deg) translatez(40px);
+	       font-family: 华文行楷;
+	       color:black;
+	       font-size: 30px
+        }
+		.back 
+		{
+			transform: rotatex(-90deg) translatez(25px);
+            color: #BD06DE;
+		}
+		.cont, .back 
+		{
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background:#2CD8AF;  
+            padding: 15px 30px 15px 31px;
+            color: white;
+            box-sizing: border-box;
+		}
+		.nav li a:hover .cont,  
+		.nav li a:hover .back
+		{
+			background-color:#37ADCD;
+		}
+
+    </style>
+
+</head>
+<body>
+	<span style="text-align: center">	
+	<div>
+		<ul class="nav">
+    <li><a href="index.html.html" class="con">__________<span class="con-box"><span class="cont">我的主页</span><span class="back"><span style="font-size: 25px">My Home Page</span></span></span> </a></li>
+			</ul>
+</div>
+</span>	
+			
+			
+<div class="header">
+    <p style="top: 10px;bottom:200px;font-size: 40px;left: 200px;right:200px;position: absolute;text-align: center;color: RGB(56,62,62);font-family: 华文行楷">游戏</p>
+</div>
+
+<div class="conter">
+    <div class="aside"></div>
+    <div class="article">
+        <p class="p1">原神</p>
+        <p class="p2">《原神》（Genshin Impact）是由米哈游研发的一款3D开放世界冒险游戏。游戏发生在一个被称作“提瓦特”的幻想世界，玩家会扮演一位名为“旅行者”的神秘角色，在自由的旅行中邂逅性格各异、能力独特的同伴们，一起击败强敌，找回失散的亲人，同时逐步发掘“原神”的真相。</p>
+        <p class="p1">明日方舟</p>
+        <p class="p2">《明日方舟》是由上海鹰角网络科技有限公司开发的一款国产战略经营类游戏。玩家为寻治愈矿石病的方法将作为岛上的领导者“博士”，带领罗德岛上的一众干员救助受难人群、处理矿石争端以及对抗整合运动。与错综复杂的各方势力博弈。</p>
+        
+    </div>
+</div>
+<div class="footer"></div>
+
+</body>
+</html>

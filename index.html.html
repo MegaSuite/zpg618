@@ -1,0 +1,104 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>我的主页</title>
+	<style>
+.con {
+    position: relative;
+}
+.nav > li {
+    display: inline;
+    float:left;
+}
+.nav li a {
+    color: #FFFF0F;
+    display: block;
+    line-height: 20px;
+    padding: 15px 30px 15px 160px;
+}
+.con:hover {
+    cursor: pointer;
+}
+.con:hover .con-box{
+     transform: translateZ(-25px) rotateX(90deg);
+}
+.con-box {
+     transition: all .3s ease-out;
+    transform: translatez(-25px);
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.cont {
+    transform: rotatex(0deg) translatez(40px);
+	font-family: 华文行楷;
+	color:black;
+	font-size: 30px
+}
+.back {
+    transform: rotatex(-90deg) translatez(25px);
+    color: #BD06DE;
+}
+.cont, .back {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#2CD8AF;  
+    padding: 15px 30px 15px 31px;
+    color: white;
+    box-sizing: border-box;
+}
+.nav li a:hover .cont,  
+.nav li a:hover .back {
+    background-color:#37ADCD;
+}
+
+
+
+
+		
+body {				
+	background-image: url("images/39.webp");	
+	background-size: 100%;
+    color: #605555;
+    font-family: "Belgrano", "Roboto Slab", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+	margin: 0;
+	display: block;
+}
+	</style>
+</head>
+
+<body>
+
+<span style="text-align: center">	
+	<div>
+		<ul class="nav">
+    <li><a href="我的游戏.html" class="con">_______<span class="con-box"><span class="cont">我的游戏</span><span class="back"><span style="font-size: 25px">Games time!</span></span></span> </a></li>
+    <li><a href="我的音乐.html" class="con">_______<span class="con-box"><span class="cont">我的音乐</span><span class="back"><span style="font-size: 25px">Music time!</span></span></span> </a></li>
+    <li><a href="我的爱好.html" class="con">_______<span class="con-box"><span class="cont">我的爱好</span><span class="back"><span style="font-size: 25px">My hobby!</span></span></span> </a></li>
+    <li><a href="联系我吧.html" class="con">_______<span class="con-box"><span class="cont">联系我吧</span><span class="back"><span style="font-size: 25px">Contact me！</span></span></span> </a></li>
+	<li><a href="https://watersouthing.gitee.io/" class="con">___________________<span class="con-box"><span class="cont">返回寝室主页</span><span class="back"><span style="font-size: 25px">Back to home page！</span></span></span> </a></li>
+  </ul>
+</div>
+</span>	
+	
+<span style="top: 200px;bottom:200px;font-size: 60px;left: 200px;right:200px;position: absolute;text-align: center;color: RGB(56,62,62);font-family: 华文行楷">
+	欢迎来到我的世界！<br><br>
+	let's begin！
+	
+</span>
+	
+</body>
+</html>

@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>我的音乐</title>
+    <style>
+        .conter {
+            width: 1200px;
+            height: 600px;
+            background-image: url("images/51.JPG");	
+			background-size: 100%;
+			margin: auto;
+            margin-bottom: 10px;
+            
+        }
+
+        .footer {
+            width: 1200px;
+            height: 300px;
+            background-image: url("images/49.JPG");	
+			background-size: 100%;
+            margin: auto;
+            margin-bottom: 10px
+        }
+
+        .header {
+            width: 1200px;
+            height: 50px;
+            background-image: url("images/50.JPG");	
+			background-size: 100%;
+            margin: auto;
+            margin-bottom: 10px
+
+        }
+
+        
+
+        .article {
+            width: 700px;
+            height: 520px;
+            background: #f3ebf0;
+            float: right;
+            margin: 20px;
+        }
+
+        .aside {
+            width: 350px;
+            height: 520px;
+            background-image: url("images/53.jfif");	
+			background-size: 100%;
+            float: left;
+            margin: 20px;
+        }
+        .p1 { /*article中的标题*/
+          
+            text-decoration: underline;
+            font-family: '华文行楷';
+            font-size: 35px;
+            letter-spacing: 2px;
+        }
+        .p2 
+		{
+            text-decoration: none;
+            font-family: '华文行楷';
+            font-size: 25px;
+            letter-spacing: 2px;
+        }
+		body 
+		{				
+	        background-image: url("images/48.JPG");	
+	        background-size: 100%;
+            color: #605555;
+            font-family: "Belgrano", "Roboto Slab", sans-serif;
+            font-size: 14px;
+            font-weight: 300;
+            line-height: normal;
+	        margin: 0;
+	        display: block;
+        }
+		.con 
+		{
+            position: relative;
+        }
+        .nav > li 
+		{
+           display: inline;
+           float:left;
+        }
+        .nav li a 
+		{
+           color: #FFFF0F;
+           display: block;
+           line-height: 20px;
+           padding: 15px 30px 15px 160px;
+        }
+        .con:hover {
+           cursor: pointer;
+        }
+        .con:hover .con-box
+		{
+           transform: translateZ(-25px) rotateX(90deg);
+        }
+        .con-box 
+		{
+           transition: all .3s ease-out;
+           transform: translatez(-25px);
+           transform-style: preserve-3d;
+           position: absolute;
+           top: 20%;
+           left: 20%;
+           display: block;
+           width: 100%;
+           height: 100%;
+        }
+        .cont 
+		{
+           transform: rotatex(0deg) translatez(40px);
+	       font-family: 华文行楷;
+	       color:black;
+	       font-size: 30px
+        }
+		.back 
+		{
+			transform: rotatex(-90deg) translatez(25px);
+            color: #BD06DE;
+		}
+		.cont, .back 
+		{
+            display: block;
+            width: 100%;
+            height: 100%;
+            position: absolute;
+            top: 0;
+            left: 0;
+            background:#2CD8AF;  
+            padding: 15px 30px 15px 31px;
+            color: white;
+            box-sizing: border-box;
+		}
+		.nav li a:hover .cont,  
+		.nav li a:hover .back
+		{
+			background-color:#37ADCD;
+		}
+
+    </style>
+
+</head>
+<body>
+	<span style="text-align: center">	
+	<div>
+		<ul class="nav">
+    <li><a href="index.html.html" class="con">__________<span class="con-box"><span class="cont">我的主页</span><span class="back"><span style="font-size: 25px">My Home Page</span></span></span> </a></li>
+			</ul>
+</div>
+</span>	
+			
+			
+<div class="header">
+    <p style="top: 10px;bottom:200px;font-size: 40px;left: 200px;right:200px;position: absolute;text-align: center;color: RGB(56,62,62);font-family: 华文行楷">我的音乐</p>
+</div>
+
+<div class="conter">
+    <div class="aside"></div>
+    <div class="article">
+        <p class="p1">稻香</p>
+        <p class="p2">《稻香》是周杰伦作曲、作词并演唱的一首歌，于2008年10月15日发行，收藏在专辑《魔杰座》中。[1]2013年周杰伦在接受媒体采访时表示，《稻香》是因汶川地震创作的。2009年这首歌曲获得第20届台湾金曲奖最佳年度歌曲奖、雪碧榜中国原创音乐流行榜港台地区歌曲奖等奖项。</p>
+        <p class="p1">东风破</p>
+        <p class="p2">2004年该歌曲获得第四届华语流行乐传媒大奖十大单曲奖、第11届中国歌曲排行榜港台地区最受欢迎歌曲奖、MusicRadio中国TOP排行榜台港地区年度歌曲和第七届中央电视台音乐电视大赛港台及海外华语最佳MV作品奖等奖项</p>
+        <p class="p1">青花瓷</p>
+    </div>
+</div>
+<div class="footer"></div>
+
+</body>
+</html>

@@ -1,0 +1,158 @@
+
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>联系我吧</title>
+	<style>
+.con {
+    position: relative;
+}
+.nav > li {
+    display: inline;
+    float:left;
+}
+.nav li a {
+    color: #FFFF0F;
+    display: block;
+    line-height: 20px;
+    padding: 15px 30px 15px 160px;
+}
+.con:hover {
+    cursor: pointer;
+}
+.con:hover .con-box{
+     transform: translateZ(-25px) rotateX(90deg);
+}
+.con-box {
+     transition: all .3s ease-out;
+    transform: translatez(-25px);
+    transform-style: preserve-3d;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+.cont {
+    transform: rotatex(0deg) translatez(40px);
+	font-family: 华文行楷;
+	color:black;
+	font-size: 30px
+}
+.back {
+    transform: rotatex(-90deg) translatez(25px);
+    color: #BD06DE;
+}
+.cont, .back {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background:#2CD8AF;  
+    padding: 15px 30px 15px 31px;
+    color: white;
+    box-sizing: border-box;
+}
+.nav li a:hover .cont,  
+.nav li a:hover .back {
+    background-color:#37ADCD;
+}
+
+		.container {
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 15px;
+    padding-right: 15px;
+    *zoom: 1;
+}
+		
+		.container:after {
+    content: " ";
+    clear: both;
+    display: block;
+    overflow: hidden;
+    height: 0;
+}
+
+
+
+
+.text-center {
+    text-align: center;
+}
+		
+body {				
+	background-image: url("images/44.jpg");	
+	background-size: 100%;
+    color: antiquewhite;
+    font-family: "Belgrano", "Roboto Slab", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: normal;
+	margin: 0;
+	display: block;
+}
+		
+
+        .aside 
+		{
+			
+			text-align: center
+            width: 400px;
+            height: 520px;
+            float:left;
+            margin: 20px;
+        }
+        .p1 { /*article中的标题*/
+          
+            
+            font-family: '华文行楷';
+            font-size: 35px;
+            letter-spacing: 2px;
+        }
+        .p2 
+		{
+			
+            
+            font-family: '华文行楷';
+            font-size: 25px;
+            letter-spacing: 2px;
+        }
+	</style>
+</head>
+
+<body>
+
+<span style="text-align: center">	
+	<div>
+		<ul class="nav">
+    <li><a href="index.html.html" class="con">_______<span class="con-box"><span class="cont">我的主页</span><span class="back"><span style="font-size: 25px">My Home Page</span></span></span> </a></li>
+    
+  </ul>
+</div>
+</span>	
+	<div class="header">
+    <p style="top: 10px;bottom:200px;font-size: 40px;left: 200px;right:200px;position: absolute;text-align: center;color: aqua ;font-family: 华文行楷">交个朋友吧！</p>
+</div>
+    <div class="aside"></div>
+    <div >
+        <p class="p1">一首小诗</p>
+        <p class="p1">我允许</p>
+        <p class="p2">如此的发展，如此的结局。</p>
+        <p class="p2">因为我知道，</p>
+		<p class="p2">所有的事情，都是因缘和合而来，</p>
+		<p class="p2">一切的发生，都是必然。</p>
+		<p class="p2">若我觉得应该是另一种可能，</p>
+		<p class="p2">伤害的，只是自己。</p>
+		<p class="p2">我唯一能做的，</p>
+		<p class="p2">就是允许。</p>
+        
+    </div>
+
+	
+</body>
+</html>
